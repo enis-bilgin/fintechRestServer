@@ -1,0 +1,9 @@
+ab -n 200 -c 10 -v 4 "127.0.0.1:8000/inc?name=i"
+
+
+
+# SomeCurls
+curl -X POST -H “Content-Type: application/json” -d @TradeList.in.json localhost:8080/trades
+curl -X GET -H “Content-Type: application/json” -d @TradeSubmitted.out.json localhost:8080/trades
+curl -X POST -H “Content-Type: application/json” -d @TradeList.in.json localhost:8080/trades
+

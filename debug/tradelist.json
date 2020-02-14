@@ -1,0 +1,55 @@
+{
+  "trades":
+  [
+    {
+      "client_trade_id": "T-50264430-a1",
+      "date": 20190605,
+      "ticker":"AAPL",
+      "price":"210.83",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-a2",
+      "date": 20190605,
+      "ticker":"AABC",
+      "price":"100.83",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-b1",
+      "date": 20190605,
+      "ticker":"FGH",
+      "price":"210.83",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-b2",
+      "date": 20190605,
+      "ticker":"GC12",
+      "price":"220.83",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-b3",
+      "date": 20190605,
+      "ticker":"DC123",
+      "price":"220.3",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-c3",
+      "date": 20190605,
+      "ticker":"NDDA",
+      "price":"210.83",
+      "quantity":"300"
+    },
+    {
+      "client_trade_id": "T-50264430-c5",
+      "date": 20190605,
+      "ticker":"GGGLE",
+      "price":"210.83",
+      "quantity":"300"
+    }
+  ]
+
+}
