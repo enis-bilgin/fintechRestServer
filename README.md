@@ -32,11 +32,12 @@ go run main.go
 
 
 ### Testing the server
-- 
-- 
-- 
-
-
+in debug directory, curl can be used as following to send some `json` data to test the server
+- `curl -X GET -H “Content-Type: application/json” -d @TradeSubmitted.out.json localhost:8080/trades`
+- `curl -X POST -H “Content-Type: application/json” -d @TradeList.in.json localhost:8080/trades`
+- `curl -X GET -H "Content-Type: application/json" -d @tradein.json localhost:8080/v1/trades/1234`
+- `curl -X GET -H "Content-Type: application/json" -d @tradein.json localhost:8080/v1/trades`
+- `curl -X GET -H "Content-Type: application/json" localhost:8080/v1/`
 
 ### Docker Setup
 - 
